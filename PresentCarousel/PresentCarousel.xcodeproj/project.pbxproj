@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC3139DF2BFFD925000A328C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3139DE2BFFD925000A328C /* AppDelegate.m */; };
+		FC3139E22BFFD925000A328C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3139E12BFFD925000A328C /* SceneDelegate.m */; };
+		FC3139E52BFFD925000A328C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3139E42BFFD925000A328C /* ViewController.m */; };
+		FC3139E82BFFD925000A328C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3139E62BFFD925000A328C /* Main.storyboard */; };
+		FC3139EA2BFFD927000A328C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3139E92BFFD927000A328C /* Assets.xcassets */; };
+		FC3139ED2BFFD927000A328C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3139EB2BFFD927000A328C /* LaunchScreen.storyboard */; };
+		FC3139F02BFFD927000A328C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3139EF2BFFD927000A328C /* main.m */; };
+		FC3139F82BFFD983000A328C /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3139F72BFFD983000A328C /* CarouselViewController.m */; };
+		FC313A002BFFD9C0000A328C /* PresentMe3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3139FC2BFFD9C0000A328C /* PresentMe3VC.m */; };
+		FC313A012BFFD9C0000A328C /* PresentMe2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3139FD2BFFD9C0000A328C /* PresentMe2VC.m */; };
+		FC313A022BFFD9C0000A328C /* PresentMe1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3139FF2BFFD9C0000A328C /* PresentMe1VC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC3139DA2BFFD925000A328C /* PresentCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3139DD2BFFD925000A328C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC3139DE2BFFD925000A328C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC3139E02BFFD925000A328C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FC3139E12BFFD925000A328C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FC3139E32BFFD925000A328C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC3139E42BFFD925000A328C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC3139E72BFFD925000A328C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC3139E92BFFD927000A328C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC3139EC2BFFD927000A328C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC3139EE2BFFD927000A328C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3139EF2BFFD927000A328C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC3139F62BFFD983000A328C /* CarouselViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
+		FC3139F72BFFD983000A328C /* CarouselViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
+		FC3139F92BFFD9C0000A328C /* PresentNextDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentNextDelegate.h; sourceTree = "<group>"; };
+		FC3139FA2BFFD9C0000A328C /* PresentMe2VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentMe2VC.h; sourceTree = "<group>"; };
+		FC3139FB2BFFD9C0000A328C /* PresentMe3VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentMe3VC.h; sourceTree = "<group>"; };
+		FC3139FC2BFFD9C0000A328C /* PresentMe3VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentMe3VC.m; sourceTree = "<group>"; };
+		FC3139FD2BFFD9C0000A328C /* PresentMe2VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentMe2VC.m; sourceTree = "<group>"; };
+		FC3139FE2BFFD9C0000A328C /* PresentMe1VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentMe1VC.h; sourceTree = "<group>"; };
+		FC3139FF2BFFD9C0000A328C /* PresentMe1VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentMe1VC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC3139D72BFFD925000A328C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC3139D12BFFD925000A328C = {
+			isa = PBXGroup;
+			children = (
+				FC3139DC2BFFD925000A328C /* PresentCarousel */,
+				FC3139DB2BFFD925000A328C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC3139DB2BFFD925000A328C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC3139DA2BFFD925000A328C /* PresentCarousel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC3139DC2BFFD925000A328C /* PresentCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				FC3139DD2BFFD925000A328C /* AppDelegate.h */,
+				FC3139DE2BFFD925000A328C /* AppDelegate.m */,
+				FC3139E02BFFD925000A328C /* SceneDelegate.h */,
+				FC3139E12BFFD925000A328C /* SceneDelegate.m */,
+				FC3139E32BFFD925000A328C /* ViewController.h */,
+				FC3139E42BFFD925000A328C /* ViewController.m */,
+				FC3139F62BFFD983000A328C /* CarouselViewController.h */,
+				FC3139F72BFFD983000A328C /* CarouselViewController.m */,
+				FC3139FE2BFFD9C0000A328C /* PresentMe1VC.h */,
+				FC3139FF2BFFD9C0000A328C /* PresentMe1VC.m */,
+				FC3139FA2BFFD9C0000A328C /* PresentMe2VC.h */,
+				FC3139FD2BFFD9C0000A328C /* PresentMe2VC.m */,
+				FC3139FB2BFFD9C0000A328C /* PresentMe3VC.h */,
+				FC3139FC2BFFD9C0000A328C /* PresentMe3VC.m */,
+				FC3139F92BFFD9C0000A328C /* PresentNextDelegate.h */,
+				FC3139E62BFFD925000A328C /* Main.storyboard */,
+				FC3139E92BFFD927000A328C /* Assets.xcassets */,
+				FC3139EB2BFFD927000A328C /* LaunchScreen.storyboard */,
+				FC3139EE2BFFD927000A328C /* Info.plist */,
+				FC3139EF2BFFD927000A328C /* main.m */,
+			);
+			path = PresentCarousel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC3139D92BFFD925000A328C /* PresentCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3139F32BFFD927000A328C /* Build configuration list for PBXNativeTarget "PresentCarousel" */;
+			buildPhases = (
+				FC3139D62BFFD925000A328C /* Sources */,
+				FC3139D72BFFD925000A328C /* Frameworks */,
+				FC3139D82BFFD925000A328C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PresentCarousel;
+			productName = PresentCarousel;
+			productReference = FC3139DA2BFFD925000A328C /* PresentCarousel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC3139D22BFFD925000A328C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FC3139D92BFFD925000A328C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FC3139D52BFFD925000A328C /* Build configuration list for PBXProject "PresentCarousel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC3139D12BFFD925000A328C;
+			productRefGroup = FC3139DB2BFFD925000A328C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC3139D92BFFD925000A328C /* PresentCarousel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC3139D82BFFD925000A328C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3139ED2BFFD927000A328C /* LaunchScreen.storyboard in Resources */,
+				FC3139EA2BFFD927000A328C /* Assets.xcassets in Resources */,
+				FC3139E82BFFD925000A328C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC3139D62BFFD925000A328C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3139E52BFFD925000A328C /* ViewController.m in Sources */,
+				FC313A012BFFD9C0000A328C /* PresentMe2VC.m in Sources */,
+				FC3139DF2BFFD925000A328C /* AppDelegate.m in Sources */,
+				FC3139F82BFFD983000A328C /* CarouselViewController.m in Sources */,
+				FC3139F02BFFD927000A328C /* main.m in Sources */,
+				FC313A002BFFD9C0000A328C /* PresentMe3VC.m in Sources */,
+				FC313A022BFFD9C0000A328C /* PresentMe1VC.m in Sources */,
+				FC3139E22BFFD925000A328C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC3139E62BFFD925000A328C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3139E72BFFD925000A328C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC3139EB2BFFD927000A328C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3139EC2BFFD927000A328C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC3139F12BFFD927000A328C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC3139F22BFFD927000A328C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC3139F42BFFD927000A328C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PresentCarousel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DonMag.PresentCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC3139F52BFFD927000A328C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PresentCarousel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DonMag.PresentCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC3139D52BFFD925000A328C /* Build configuration list for PBXProject "PresentCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3139F12BFFD927000A328C /* Debug */,
+				FC3139F22BFFD927000A328C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3139F32BFFD927000A328C /* Build configuration list for PBXNativeTarget "PresentCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3139F42BFFD927000A328C /* Debug */,
+				FC3139F52BFFD927000A328C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC3139D22BFFD925000A328C /* Project object */;
+}
